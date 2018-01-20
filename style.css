@@ -1,0 +1,182 @@
+body{ white-space:pre-wrap;}
+
+/* --------------------------------------------- Modal : Main window (master idea)*/
+
+.modalStart {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+margin: 10px 10px 10px 10px;
+height: 90%;
+width: 95%;
+border: 4px solid #aaa;
+border-radius: 15px;
+overflow: hidden;
+position: fixed;
+  top: 47%;
+  left: 49%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  position: relative;
+  left: 10%;
+  bottom: -8%;
+}
+
+#startId{
+  background: white;
+  color: #73879C;
+  border: 3px solid #9AD6E3;
+  border-radius: 15px;
+  margin: 20px 20px;
+  overflow: hidden;
+  width:36%;
+  height: 8%;
+  position: relative;
+  left: 47%;
+  bottom: 12%;
+  font-size: 19px;
+}
+
+#startText{
+  background: white;
+  color: #73879C;
+  border: 3px solid #9AD6E3;
+  border-radius: 15px;
+  margin: 20px 20px;
+  overflow: hidden;
+  width:50%;
+  height: 8%;
+  position: relative;
+  left: 40%;
+  bottom: 30%;
+  font-size: 19px;
+}
+
+#startButton {
+  background: #FFC0CB ;
+  border: 5px solid #aaa;
+  border-radius: 15px;
+  margin: 20px 20px;
+  overflow: hidden;
+  width:30%;
+  height: 10%;
+  position: relative;
+  left: 50%;
+  bottom: 40%;
+  font-size: 19px;
+}
+/* --------------------------------------------- Modal : Child (new idea)*/
+.modalChild {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+margin: 10px 10px 10px 10px;
+height: 75%;
+width: 50%;
+border: 4px solid #aaa;
+border-radius: 15px;
+overflow: hidden;
+position: fixed;
+  top: 47%;
+  left: 49%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+  position: relative;
+  left: 57%;
+  bottom: -8%;
+}
+
+#childId{
+  background: white;
+  color: #73879C;
+  border: 3px solid #9AD6E3;
+  border-radius: 15px;
+  margin: 20px 20px;
+  overflow: hidden;
+  width:36%;
+  height: 8%;
+  position: relative;
+  left: 47%;
+  bottom: 0%;
+  font-size: 19px;
+}
+
+#childText{
+  background: white;
+  color: #73879C;
+  border: 3px solid #9AD6E3;
+  border-radius: 15px;
+  margin: 20px 20px;
+  overflow: hidden;
+  width:50%;
+  height: 8%;
+  position: relative;
+  left: 40%;
+  bottom: 14%;
+  font-size: 19px;
+}
+
+#childButton {
+  background: #FFC0CB ;
+  border: 5px solid #aaa;
+  border-radius: 15px;
+  margin: 20px 20px;
+  overflow: hidden;
+  width:30%;
+  height: 10%;
+  position: relative;
+  left: 50%;
+  bottom: 24%;
+  font-size: 19px;
+}
+
+/* --------------------------------------------- Container : where everything is ... */
+
+#container {
+  margin: 10px 10px 10px 10px;
+  height: 90%;
+  width: 95%;
+  border: 3px solid #ffec8b;
+  border-radius: 15px;
+  overflow: hidden;
+  position: fixed;
+    top: 47%;
+    left: 49%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* --------------------------------------------- Context Menu */
+
+#contextMenu {
+  background-color: #FFE4D6;
+  border: 2px solid #6A6A6A;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #474747;
+  width: 130px;
+  height: 160px;
+  display: none;
+  position: absolute;
+  font-weight: bold;
+
+}
+
+.menuItem:hover {
+  background-color: #E5CDC0;
+}
+
+#lineBreak{
+  width: 100%;
+  height: 1px;
+  background-color: #474747;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="plugin.js"></script>
+        <script src="jsplumb.js"></script>
+        <script src="main.js"></script>
+    <title></title>
+  </head>
+
+  <body oncontextmenu="return false;">
+
+    <div id="container">
+    </div>
+
+    <div id="contextMenu">
+      <span class = "menuItem" id = "addNewIdea">Add new idea</span>
+      <div id = "lineBreak"></div>
+      <span class = "menuItem" id = "linkIdea1">Link an idea</span>
+    </br>
+      <span class = "menuItem" id = "linkIdea2">with an other !</span>
+    </div>
+
+    <section class="modalChild" style="background-image:url(ele_bal.jpg)">
+      <h3>"Add a new Idea !"</h3>
+      <input name="" type="text" id="childId" value="  Your idea in a single word !"><br/>
+      <input name="" type="text" id="childText" value="  Describe you idea in a phrase !"><br/>
+      <button id="childButton" type="button">Add !</button>
+    </section>
+
+    <section class="modalStart" style="background-image:url(Elephant_bur.jpg)">
+      <h2>"Let's mind mapping !"</h2>
+      <input name="" type="text" id="startId" value="  Your idea in a single word !"><br/>
+      <input name="" type="text" id="startText" value="  Describe you idea in a phrase !"><br/>
+      <button id="startButton" type="button">Magic starts here !</button>
+    </section>
+  </body>
+</html>
